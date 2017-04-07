@@ -1,5 +1,5 @@
 {
-  "name": "time",
+  "name": "insert-time",
   "main": "./lib/time",
   "version": "1.0.0",
   "description": "Insert the current date & time. See the readme for format options.",
