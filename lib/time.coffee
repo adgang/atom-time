@@ -16,8 +16,8 @@ module.exports = Time =
     @subscriptions.dispose()
 
   config: {
-		format: {
-			type: 'string',
-			default: 'yyyy-MM-dd HH:mm:ss'
-		}
+    format: {
+      type: 'string',
+      default: 'yyyy-MM-dd HH:mm:ss'
+    }
   }
