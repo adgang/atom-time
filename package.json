@@ -1,7 +1,7 @@
 {
   "name": "insert-time",
   "main": "./lib/time",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Inserts current timestamp. Time format is a strftime customizable. See the readme for format options.",
   "keywords": [
     "atom",
@@ -16,6 +16,5 @@
   "engines": {
     "atom": ">0.177.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
