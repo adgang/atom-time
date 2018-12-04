@@ -2,8 +2,11 @@
   "name": "insert-time",
   "main": "./lib/time",
   "version": "1.0.0",
-  "description": "Insert the current date & time. See the readme for format options.",
+  "description": "Inserts current timestamp. Time format is a strftime customizable. See the readme for format options.",
   "keywords": [
+    "atom",
+    "time",
+    "timestamp"
   ],
   "activationCommands": {
     "atom-workspace": "time:insert"
