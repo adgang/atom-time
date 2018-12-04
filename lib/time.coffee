@@ -8,7 +8,7 @@ module.exports = Time =
     @subscriptions = new CompositeDisposable
     @subscriptions.add atom.commands.add 'atom-text-editor', 'time:insert': (event) ->
       if editor = atom.workspace.getActiveTextEditor()
-        format = atom.config.get('time.format')
+        format = atom.config.get('insert-time.format')
         editor.insertText(DateFormatter(new Date(Date.now()), format))
 
 
@@ -16,8 +16,8 @@ module.exports = Time =
     @subscriptions.dispose()
 
   config: {
-		format: {
-			type: 'string',
-			default: 'yyyy-MM-dd HH:mm:ss'
-		}
+    format: {
+      type: 'string',
+      default: 'yyyy-MM-dd HH:mm:ss'
+    }
   }
